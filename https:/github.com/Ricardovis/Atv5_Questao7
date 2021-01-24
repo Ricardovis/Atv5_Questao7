@@ -1,0 +1,21 @@
+programa {
+	funcao inicio() {
+		
+		inteiro ano
+		
+		escreva("Olá, qual ano desejas saber se é bissexto ? \n R: ")
+		leia(ano)
+		limpa()
+		
+		se(ano%4 > 0){
+		    
+		    escreva(" Esse ano não é bissexto \n")
+		    
+		}senao se(ano%4 == 0){
+		    
+		    escreva(" Esse ano é bissexto \n")
+		    
+		}
+		
+	}
+}
